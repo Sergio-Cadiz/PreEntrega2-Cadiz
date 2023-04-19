@@ -27,7 +27,7 @@ while (comprar == "si"){
         console.log(resultado)
         juegosElegidos.push(resultado)
     }
-    comprar = prompt("Quieres comprar productos? ")
+    comprar = prompt("Quieres agregar otros productos? ")
 }
 juegosElegidos.forEach((el) => costo += el.precio)
 alert("El total de lo que debera pagar es: " + costo)
