@@ -18,7 +18,7 @@ let comprar = prompt("Quieres comprar productos? ")
 let juegosElegidos = []
 let costo = 0
 
-while (comprar == "si".toUpperCase()){
+while (comprar == "si"){
     let nombreJuego = prompt("Ingrese el nombre del juego que quiere llevar: Rainbow Six Siege,Fornite,Apex,Moto GP,")
     let resultado = productos.find((el) => el.nombre == nombreJuego)
     if (resultado == undefined){
